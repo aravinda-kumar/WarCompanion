@@ -1,0 +1,54 @@
+.essential-theme {
+  .is-product-tiles ion-card {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid var(--ion-color-is-mute-light);
+
+    div {
+      position: relative;
+
+      ion-fab {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        ion-fab-button {
+          --ion-color-base: white;
+          --ion-color-tint: white;
+          color: var(--ion-color-is-mute-normal);
+        }
+
+        button.fab-ios {
+          border: 1px solid var(--ion-color-is-mute-light);
+          background-clip: border-box;
+        }
+      }
+    }
+
+    p {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: var(--ion-color-is-mute-normal);
+    }
+
+    h2 {
+      margin-top: 6px;
+      font-size: 1rem;
+      color: var(--ion-color-is-text-dark);
+    }
+
+    h4 {
+      margin-top: 6px;
+      font-size: 0.8rem;
+      color: var(--ion-color-primary);
+    }
+  }
+
+  .is-product-tiles-unbordered ion-card {
+    border: none;
+
+    img {
+      border-radius: 5px;
+    }
+  }
+}

@@ -1,0 +1,156 @@
+/*
+* Default Ionic colors overridden by Essential's color scheme. New colors
+* added into the Essential theme such as "mute" shades.
+*/
+
+:root {
+  /** primary **/
+  --ion-color-primary: #61CFE9;
+  --ion-color-primary-rgb: 97, 207, 233;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255,255,255;
+  --ion-color-primary-shade: #55b6cd;
+  --ion-color-primary-tint: #71d4eb;
+
+  /** secondary **/
+  --ion-color-secondary: #FF89C0;
+  --ion-color-secondary-rgb: 255, 137, 192;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255,255,255;
+  --ion-color-secondary-shade: #e079a9;
+  --ion-color-secondary-tint: #ff95c6;
+
+  /** success **/
+  --ion-color-success: #97C66B;
+  --ion-color-success-rgb: 198, 107, 196;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255,255,255;
+  --ion-color-success-shade: #85ae5e;
+  --ion-color-success-tint: #a1cc7a;
+
+  /** danger **/
+  --ion-color-danger: #FF788D;
+  --ion-color-danger-rgb: 255, 120, 141;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255,255,255;
+  --ion-color-danger-shade: #e06a7c;
+  --ion-color-danger-tint: #ff8698;
+
+  /** dark **/
+  --ion-color-dark: #AC85D4;
+  --ion-color-dark-rgb: 172, 133, 212;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255,255,255;
+  --ion-color-dark-shade: #9775bb;
+  --ion-color-dark-tint: #b491d8;
+
+  /** light **/
+  --ion-color-light: #FFDD7D;
+  --ion-color-light-rgb: 255, 221, 125;
+  --ion-color-light-contrast: #ffffff;
+  --ion-color-light-contrast-rgb: 255,255,255;
+  --ion-color-light-shade: #e0c26e;
+  --ion-color-light-tint: #ffe08a;
+
+  /** facebook **/
+  --ion-color-is-facebook: #3B5998;
+  --ion-color-is-facebook-rgb: 35,53,57;
+  --ion-color-is-facebook-contrast: #ffffff;
+  --ion-color-is-facebook-contrast-rgb: 255,255,255;
+  --ion-color-is-facebook-shade: #344e86;
+  --ion-color-is-facebook-tint: #4f6aa2;
+
+  /** twitter **/
+  --ion-color-is-twitter: #55ACEE;
+  --ion-color-is-twitter-rgb: 35,53,57;
+  --ion-color-is-twitter-contrast: #ffffff;
+  --ion-color-is-twitter-contrast-rgb: 255,255,255;
+  --ion-color-is-twitter-shade: #4b97d1;
+  --ion-color-is-twitter-tint: #66b4f0;
+
+  /** linkedin **/
+  --ion-color-is-linkedin: #0073B0;
+  --ion-color-is-linkedin-rgb: 35,53,57;
+  --ion-color-is-linkedin-contrast: #ffffff;
+  --ion-color-is-linkedin-contrast-rgb: 255,255,255;
+  --ion-color-is-linkedin-shade: #00659b;
+  --ion-color-is-linkedin-tint: #1a81b8;
+
+  --ion-color-is-mute-normal: #AFB8BB;
+  --ion-color-is-mute-dark: #75888C;
+  --ion-color-is-dark-contrast: #ffffff;
+  --ion-color-is-mute-light: #EEF3F5;
+  --ion-color-is-text-dark: #233539;
+
+  // Fonts used by the app for Android and iOS platforms
+  --ion-font-family: "Rubik", "Roboto", "Helvetica Neue", sans-serif;
+}
+
+// To use custom colors in Ionic Components set the following classes.
+// For more information, read
+// https://beta.ionicframework.com/docs/theming/advanced/#adding-colors
+.ion-color-is-mute-normal {
+  --ion-color-base: #AFB8BB;
+  --ion-color-base-rgb: 175,184,187;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255,255,255;
+  --ion-color-shade: #9aa2a5;
+  --ion-color-tint: #b7bfc2;
+}
+
+.ion-color-is-text-dark {
+  --ion-color-base: #233539;
+  --ion-color-base-rgb: 35,53,57;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255,255,255;
+  --ion-color-shade: #1f2f32;
+  --ion-color-tint: #39494d;
+}
+
+.ion-color-is-facebook {
+  --ion-color-base: #3B5998;
+  --ion-color-base-rgb: 35,53,57;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255,255,255;
+  --ion-color-shade: #344e86;
+  --ion-color-tint: #4f6aa2;
+}
+
+.ion-color-is-twitter {
+  --ion-color-base: #55ACEE;
+  --ion-color-base-rgb: 35,53,57;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255,255,255;
+  --ion-color-shade: #4b97d1;
+  --ion-color-tint: #66b4f0;
+}
+
+.ion-color-is-linkedin {
+  --ion-color-base: #0073B0;
+  --ion-color-base-rgb: 35,53,57;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255,255,255;
+  --ion-color-shade: #00659b;
+  --ion-color-tint: #1a81b8;
+}
+
+/*
+* Added colors to be used less frequently. They don't
+* use the color function. For more information, read
+* https://ionicframework.com/docs/theming/theming-your-app/
+*/
+$is-searchbar-color: #F9F9FA;
+
+
+@import "./core";
+@import "./rubik";
+@import "./grid";
+@import "./list";
+@import "./list-square";
+@import "./list-condensed";
+@import "./list-colored";
+@import "./list-ordered";
+@import "./list-item-start-buttons-end";
+@import "./payment-cards";
+@import "./product-tile";
+@import "./collapsible-list-with-divider";
